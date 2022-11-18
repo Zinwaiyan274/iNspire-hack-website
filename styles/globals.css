@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yaldevi:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: #00203f;
+}
+
+.head{
+  background-color: #191919;
+  margin: 0;
+  padding: 0;
+}
+
+.head .container-fluid .row .firstCol{
+  background-color: #191919;
+  height: 81vh;
+  width: 100px;
+}
+
+.head .container-fluid .row .secondCol{
+  background-color: #00203f;
+  height: 80vh;
+  width: 580px;
+}
+
+.head .container-fluid .row .thirdCol{
+  background-color: #191919;
+  height: 81vh;
+}
+
+.secondCol .fName{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 80px;
+  background-color: #00ece9;
+  background-image: linear-gradient(200deg, #00ece9, #fff);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  /* text-shadow: 0 0 2px #fff, 0 0 8px #00ece9, 0 0 2px; */
+}
+
+.secondCol .sName{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  font-size: 120px;
+  background-color: #00ece9;
+  background-image: linear-gradient(30deg, #00ece9, #fff);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  /* text-shadow: 0 0 2px #fff, 0 0 8px #00ece9, 0 0 2px; */
+}
+
+.thirdCol .text{
+  height: 81vh;
+  align-items: center;
+  justify-content: center;
+  padding-left: 100px;
+  padding-top: 270px;
+}
+
+.thirdCol .text .firstText{
+  font-size: 100px;
+  margin-bottom: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bolder;
+}
+
+.thirdCol .text .secondText{
+  font-size: 33px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px;
+  line-height: 120%;
+}
+
+.thirdCol .text .thirdText{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px;
+}
+
+.thirdCol .text .fourthText{
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0px;
+}
+
+.body{
+  background-color: #00203f;
+  height: 90vh;
+}
+
+.body .title{
+  margin-top: 150px;
+  height: 41vh;
+  background-color: #191919;
+}
+
+.body .title h1{
+  font-size: 110px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+
+.body .about{
+  padding: 0;
+  margin-top: 200px;
+}
+
+.body .about h1{
+  color: #adefdf;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.body .about .para{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 17px;
+}
+
+.spon{
+  background-color: #00203f;
+  height: 50vh;
+}
+
+.spon h1{
+  color: #adefdf;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.spon p{
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
+
+.footer{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.faq{
+  padding-top: 10px;
+}
