@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCalendar } from "@fortawesome/free-regular-svg-icons"
+import Image from "next/image"
 
 const Home = () => {
   return (
@@ -10,8 +11,7 @@ const Home = () => {
           <div class="col-1 offset-1 firstCol"></div>
           <div class="col-4 secondCol">
             <div>
-              <h1 class="fName">iNSPIRE</h1> 
-              <h1 class="sName">HACK</h1>
+              <img src="ihack.png" width="580px" />
             </div>
           </div>
           <div class="col-6 thirdCol text-white">
@@ -23,8 +23,7 @@ const Home = () => {
               </p>
               <p class="thirdText">For High School Students And University Students</p>
               <p class="fourthText"> 
-                {/* <Image class="img" src="/calendar-regular.svg" width={128} height={50}/> */}
-                December 23rd - 25th
+                <FontAwesomeIcon icon={faCalendar} style={{ fontSize:"38px" }} /> &nbsp; December 23rd - 25th
               </p>
             </div>
           </div>
@@ -55,6 +54,14 @@ const Home = () => {
     </div>
     <div class="spon">
       <h1>Sponsors</h1>
+      <div class="sponLogo">
+        <Image src={'/next-js.svg'} width="100" height="100" />
+        <Image src={'/laravel.svg'} width="100" height="100" />
+        <Image src={'/react.svg'} width="100" height="100" />
+        <Image src={'/hack-club-bank.svg'} width="100" height="100" />
+        <Image src={'/paypal.svg'} width="100" height="100" />
+        <Image src={'/google.svg'} width="100" height="100" />
+      </div>
       <p>
         <a href='/Inspire Hack Prospectus.pdf' target="_blank">
           WE ARE TRYING TO REACH TO OUR POTENTIAL SPONSORS. <br/>

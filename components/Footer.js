@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import Link from 'next/link'
 
 const Footer = () => {
@@ -23,25 +23,31 @@ const Footer = () => {
             <div className='col-md-4 mb-4'>
               <h3 class="fs-4">Follow Us</h3>
               <span className='me-3 rounded-sm'>
-                  <Link href='https://www.facebook.com/teehtwin.org'>
+                  <Link href='https://www.facebook.com/teehtwin.org' target="_blank">
                       <FontAwesomeIcon icon={faFacebook} style={{ fontSize:"30px" }} ></FontAwesomeIcon>
                   </Link>
               </span>
-            
+
               <span className='me-3 rounded-sm'>
-                  <Link href='https://twitter.com/teehtwin'>
-                      <FontAwesomeIcon icon={faTwitter} style={{ fontSize:"30px" }} ></FontAwesomeIcon>
+                  <Link href='https://www.youtube.com/channel/UCBraKW64CZLSyK-b49A2nBw' target="_blank">
+                      <FontAwesomeIcon icon={faYoutube} style={{ fontSize:"30px" }} ></FontAwesomeIcon>
                   </Link>
               </span>
-            
+
               <span className='me-3 rounded-sm'>
-                  <Link href='https://www.instagram.com/teehtwin'>
+                  <Link href='https://www.instagram.com/teehtwin' target="_blank">
                       <FontAwesomeIcon icon={faInstagram} style={{ fontSize:"30px" }} ></FontAwesomeIcon>
                   </Link>
               </span>
             
               <span className='me-3 rounded-sm'>
-                  <Link href='https://www.linkedin.com/in/tee-htwin'>
+                  <Link href='https://twitter.com/teehtwin' target="_blank">
+                      <FontAwesomeIcon icon={faTwitter} style={{ fontSize:"30px" }} ></FontAwesomeIcon>
+                  </Link>
+              </span>
+            
+              <span className='me-3 rounded-sm'>
+                  <Link href='https://www.linkedin.com/in/tee-htwin' target="_blank">
                       <FontAwesomeIcon icon={faLinkedin} style={{ fontSize:"30px" }} ></FontAwesomeIcon>
                   </Link>
               </span>

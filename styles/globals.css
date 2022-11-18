@@ -34,6 +34,10 @@ nav img{
   width: 580px;
 }
 
+.head .container-fluid .row img{
+  height: 80vh;
+}
+
 .head .container-fluid .row .thirdCol{
   background-color: #191919;
   height: 81vh;
@@ -86,11 +90,11 @@ nav img{
   align-items: center;
   justify-content: center;
   padding-left: 100px;
-  padding-top: 270px;
+  padding-top: 210px;
 }
 
 .thirdCol .text .firstText{
-  font-size: 100px;
+  font-size: 130px;
   margin-bottom: 10px;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: bolder;
@@ -113,6 +117,8 @@ nav img{
   font-size: 20px;
   font-family: 'Montserrat', sans-serif;
   padding: 0px;
+  display: flex;
+  align-items: center;
 }
 
 .body{
@@ -167,8 +173,20 @@ nav img{
 
 .spon p{
   text-align: center;
-  color: white;
   text-decoration: underline;
+  margin-top: 70px;
+}
+
+.spon p a{
+  color: white;
+}
+
+.spon .sponLogo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 90%;
 }
 
 .footer{
@@ -178,3 +196,4 @@ nav img{
 .faq{
   padding-top: 10px;
 }
+
