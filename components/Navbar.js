@@ -4,7 +4,7 @@ const Navbar = () => {
     return (
     <nav class="navbar fixed-top navbar-expand-lg shadow-5">
         <div class="navbar-brand ms-5">
-            <h3 class="text-white">Tee Htwin</h3>
+            <img src="/Logo.svg" width="60px"/>
         </div>
         <div class="container-fluid">
             <div class="collapse navbar-collapse pe-5" id="navbarRightAlignExample">

@@ -12,6 +12,10 @@ nav{
   background-color: #00203f;
 }
 
+nav img{
+  margin-left: 100px;
+}
+
 .head{
   background-color: #191919;
   margin: 0;
