@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+nav{
+  background-color: #00203f;
+}
+
+.body{
+  /* background-color: #191919; */
+  background-color: #00203f;
+}
+
+.body .container-fluid .row .firstCol{
+  background-color: #191919;
+  height: 75vh;
+}
+
+.body .container-fluid .row .secondCol{
+  background-color: #00203f;
+  height: 74vh;
+}
+
+.body .container-fluid .row .thirdCol{
+  background-color: #191919;
+  height: 75vh;
+}
+
+.about{
+  background-color: #00203f;
+  height: 75vh;
+}
+
+.titleColor{
+  color: #25a5be;
+}
+
+.inspireHack{
+  background-color: black;
+  width: 75px;
+  height: 400px;
+  font-size: 5rem;
+}
+
+.content{
+  width: 550px;
+  height: 50px;
+}
+
+.aboutInspireContent{
+  /* padding-left: 50px; */
+}
