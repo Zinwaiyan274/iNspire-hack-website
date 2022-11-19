@@ -53,7 +53,7 @@ const Footer = () => {
               </span>
 
               <div className='fs-4 faq'>
-                  <Link href="/" style={{ color:'white' }}>FAQ</Link>
+                  <Link href="/faq" style={{ color:'white' }}>FAQ</Link>
               </div>
             </div>
           </div>
