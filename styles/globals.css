@@ -163,7 +163,7 @@ nav img{
 }
 
 .spon h1{
-  color: #adefdf;
+  color: #a4f5e0;
   font-size: 40px;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
@@ -191,6 +191,7 @@ nav img{
 
 .footer{
   font-family: 'Montserrat', sans-serif;
+  background-color: #191919;
 }
 
 .faq{
@@ -206,4 +207,15 @@ nav img{
   margin: 0;
   padding-top: 10rem;
   padding-bottom: 5rem;
+}
+
+.social-icon {
+  background:#63be9d;
+  color:#00203f;
+  padding : 6px;
+  border-radius: 50%;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
