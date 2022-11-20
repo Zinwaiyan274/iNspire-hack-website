@@ -8,57 +8,61 @@ const Footer = () => {
         <div className='container-fluid footer-section text-white py-3 text-center'>
           <div className='row d-flex align-items-center justify-content-between '>
 
-            <div className='col-md-4'>
+            <div className='col-md-4 cus'>
               <h3 class="fs-4">Contact US</h3>
               <p>customercare@teehtwin.org</p>
               <p>+95-9985112943</p>
             </div>
 
-            <div className='col-md-4'>
+            <div className='col-md-4 pr'>
               <h3 class="fs-4">Partner With US</h3>
               <p>pr@teehtwin.org</p>
               <p>+95-9985112943</p>
             </div>
 
-            <div className='col-md-4 '>
-              <h3 class="fs-4">Follow Us</h3>
-              <span className='me-3 rounded-sm '>
-                  <Link href='https://www.facebook.com/teehtwin.org' target="_blank">
-                      <FontAwesomeIcon icon={faFacebookF} style={{ fontSize:"25px"}} className='social-icon'></FontAwesomeIcon>
-                  </Link>
-              </span>
+            <div className='col-md-4 last'>
+              <div className='follow'>
+                <h3 class="fs-4">Follow Us</h3>
+                <span className='me-3 rounded-sm '>
+                    <Link href='https://www.facebook.com/teehtwin.org' target="_blank">
+                        <FontAwesomeIcon icon={faFacebookF} style={{ fontSize:"25px"}} className='social-icon'></FontAwesomeIcon>
+                    </Link>
+                </span>
 
-              <span className='me-3 rounded-sm'>
-                  <Link href='https://www.youtube.com/channel/UCBraKW64CZLSyK-b49A2nBw' target="_blank">
-                      <FontAwesomeIcon icon={faYoutube} style={{ fontSize:"25px"}} className='social-icon' ></FontAwesomeIcon>
-                  </Link>
-              </span>
+                <span className='me-3 rounded-sm'>
+                    <Link href='https://www.youtube.com/channel/UCBraKW64CZLSyK-b49A2nBw' target="_blank">
+                        <FontAwesomeIcon icon={faYoutube} style={{ fontSize:"25px"}} className='social-icon' ></FontAwesomeIcon>
+                    </Link>
+                </span>
 
-              <span className='me-3 rounded-sm'>
-                  <Link href='https://www.instagram.com/teehtwin' target="_blank">
-                      <FontAwesomeIcon icon={faInstagram} style={{ fontSize:"25px"}} className='social-icon' ></FontAwesomeIcon>
-                  </Link>
-              </span>
+                <span className='me-3 rounded-sm'>
+                    <Link href='https://www.instagram.com/teehtwin' target="_blank">
+                        <FontAwesomeIcon icon={faInstagram} style={{ fontSize:"25px"}} className='social-icon' ></FontAwesomeIcon>
+                    </Link>
+                </span>
             
-              <span className='me-3 rounded-sm'>
-                  <Link href='https://twitter.com/teehtwin' target="_blank">
-                      <FontAwesomeIcon icon={faTwitter} style={{ fontSize:"25px"}} className='social-icon' ></FontAwesomeIcon>
-                  </Link>
-              </span>
+                <span className='me-3 rounded-sm'>
+                    <Link href='https://twitter.com/teehtwin' target="_blank">
+                        <FontAwesomeIcon icon={faTwitter} style={{ fontSize:"25px"}} className='social-icon' ></FontAwesomeIcon>
+                    </Link>
+                </span>
             
-              <span className='me-3 rounded-sm'>
-                  <Link href='https://www.linkedin.com/in/tee-htwin' target="_blank">
-                      <FontAwesomeIcon icon={faLinkedin} style={{ fontSize:"25px"}} className='social-icon' ></FontAwesomeIcon>
-                  </Link>
-              </span>
+                <span className='me-3 rounded-sm'>
+                    <Link href='https://www.linkedin.com/in/tee-htwin' target="_blank">
+                        <FontAwesomeIcon icon={faLinkedin} style={{ fontSize:"25px"}} className='social-icon' ></FontAwesomeIcon>
+                    </Link>
+                </span>
+              </div>
 
-              <div className='fs-4 faq'>
-                  <Link href="/faq" style={{ color:'white' }}>FAQ</Link>
+              <div className='faq'>
+                <div className='fs-4 faqText'>
+                    <Link href="/faq" style={{ color:'white' }}>FAQ</Link>
+                </div>
               </div>
             </div>
           </div>
 
-          <div className='row d-flex align-items-center justify-content-center mt-3'>
+          <div className='row d-flex align-items-center justify-content-center cr'>
             Copy Right @2022; Tee Htwin
           </div>
         </div>

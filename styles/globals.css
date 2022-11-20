@@ -20,29 +20,21 @@ nav{
   border-bottom: 3px solid black;
 }
 
-.logo{
-
-}
-
 .con{
-  max-width: 1280px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-@media(min-width:768px){
-  .menu{
-    display: block;
-  }
+.con .logo{
+  margin-left: 150px;
 }
 
 .menu{
   display: flex;
   flex: 1 1 0%;
   justify-content: flex-end;
-  margin: 0 -16px;
+  padding-left: 100px;
 }
 
 .menu .a{
@@ -55,72 +47,22 @@ nav{
   border-radius: 99px;
 }
 
-.menu .a.is-active, .menu .a:hover{
+.menu .a:hover{
   background-color: #000;
 }
 
-/* nav img{
-  margin-left: 150px;
+@media(max-width:768px){
+  .menu{
+    margin-left: 400px;
+    display: block;
+  }
+
+  .con .logo{
+    margin: 10px;
+    
+  }
+
 }
-
-nav .navItem{
-  justify-content: end;
-}
-
-nav .navItem ul{
-  display: flex;
-  list-style: none;
-}
-
-
-nav .navItem ul li{
-  padding: 0 30px;
-  border: 1px solid white;
-} */
-/* 
-@media(min-width: 1400px) and (max-width: 1920px){
-  nav img{
-    margin-left: 100px;
-  }
-
-  nav .navItem {
-    margin-left: 1200px;
-  }
-}
-
-@media(min-width: 1024px) and (max-width: 1400px){
-  nav img{
-    margin-left: 100px;
-  }
-
-  nav .navItem {
-    margin-left: 800px;
-  }
-}
-
-@media(min-width: 820px){
-  nav img{
-    margin-left: 50px;
-  }
-
-  nav .navItem {
-    margin-left: 300px;
-  }
-}
-
-@media(max-width: 767px){
-  nav img{
-    margin-left: 50px;
-  }
-}
-
-@media(max-width: 360px){
-  nav img{
-    margin-left: 0px;
-    border: 1px solid white;
-  }
-} */
-
 
 .head{
   background-color: #191919;
@@ -137,58 +79,17 @@ nav .navItem ul li{
 .head .container-fluid .row .secondCol{
   background-color: #00203f;
   height: 80vh;
-  width: 580px;
+  max-width: 580px;
 }
 
 .head .container-fluid .row img{
   height: 80vh;
+  max-width: 580px;
 }
 
 .head .container-fluid .row .thirdCol{
   background-color: #191919;
   height: 81vh;
-}
-
-.secondCol .fName{
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bolder;
-  font-size: 80px;
-  background-color: #00ece9;
-  background-image: linear-gradient(200deg, #00ece9, #fff);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-  /* text-shadow: 0 0 2px #fff, 0 0 8px #00ece9, 0 0 2px; */
-}
-
-.secondCol .sName{
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  height: 40vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: bolder;
-  font-size: 120px;
-  background-color: #00ece9;
-  background-image: linear-gradient(30deg, #00ece9, #fff);
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-text-fill-color: transparent;
-  /* text-shadow: 0 0 2px #fff, 0 0 8px #00ece9, 0 0 2px; */
 }
 
 .thirdCol .text{
@@ -227,6 +128,70 @@ nav .navItem ul li{
   align-items: center;
 }
 
+@media(max-width:768px){
+  .head .container-fluid{
+    background-color: #191919;
+    width: 896px;
+  }
+
+  .head .container-fluid .row .secondCol img{
+    height: 80vh;
+    width: 100%;
+  }
+
+  .head .container-fluid .row .firstCol{
+    display: none;
+  }
+
+  .head .container-fluid .row .secondCol{
+    background-color: #00203f;
+    height: 70vh;
+    margin: auto;
+  }
+
+  .head .container-fluid .row .thirdCol{
+    background-color: #191919;
+    width: 100%;
+    height: 60vh;
+  }
+
+  .thirdCol .text{
+    width: 100%;
+    height: 60vh;
+    margin: auto;
+    padding-top: 120px;
+    padding-left: 170px;
+  }
+
+  .thirdCol .text .firstText{
+    font-size: 90px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+  }
+
+  .thirdCol .text .secondText{
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    line-height: 120%;
+  }
+
+  .thirdCol .text .thirdText{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+  }
+
+  .thirdCol .text .fourthText{
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+  }
+}
+
 .body{
   background-color: #00203f;
   height: 90vh;
@@ -258,9 +223,54 @@ nav .navItem ul li{
 }
 
 .body .about .para{
+  inline-size: 600px;
+  overflow-wrap: break-word;
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 17px;
+}
+
+@media(max-width: 768px){
+  .body{
+    background-color: #00203f;
+    width: 896px;
+    height: 80vh;
+  }
+
+  .body .title{
+    margin-top: 250px;
+    margin-left: 130px;
+    height: 25vh;
+    background-color: #191919;
+  }
+
+  .body .title h1{
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    color: white;
+  }
+
+  .body .about{
+    padding: 0;
+    margin-top: 220px;
+    margin-left: 60px;
+  }
+
+  .body .about h1{
+    color: #adefdf;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .body .about .para{
+    inline-size: 100%;
+    word-wrap: break-word;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 17px;
+  }
 }
 
 .spon{
@@ -272,6 +282,14 @@ nav .navItem ul li{
   color: #a4f5e0;
   font-size: 40px;
   font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.spon h2{
+  color: #a4f5e0;
+  font-size: 35px;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   margin-bottom: 40px;
@@ -289,30 +307,59 @@ nav .navItem ul li{
 
 .spon .sponLogo{
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
   margin: auto;
-  width: 90%;
+  
+}
+
+@media(max-width: 768px){
+  .spon{
+    width: 896px;
+    height: 60vh;
+  }
+
+  .spon h1{
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .spon h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+
+  .spon p{
+    margin-top: 60px;
+  }
+
+  .spon .sponLogo{
+    inline-size: 800px;
+    display: block;
+    text-align: center;
+    margin: auto;
+  }
 }
 
 .footer{
   font-family: 'Montserrat', sans-serif;
   background-color: #191919;
+  margin: auto;
 }
 
-.faq{
+.faqText{
   padding-top: 10px;
 }
 
 .faq-section{
   background-color: #f0f5fa;
-  height: 100%;
+  /* height: 100%; */
 }
 
 .faq-content{
   margin: 0;
   padding-top: 10rem;
-  padding-bottom: 5rem;
+  padding-bottom: 120px;
 }
 
 .social-icon {
@@ -325,3 +372,45 @@ nav .navItem ul li{
   align-items: center;
   justify-content: center;
 }
+
+@media(max-width: 768px){
+  .footer{
+    width: 896px;
+  }
+
+  .footer .cus{
+    width: 50%;
+  }
+
+  .footer .pr{
+    width: 50%;
+  }
+
+  .footer .last{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer .follow{
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .footer .faq{
+    width: 50%;
+    margin-top: 20px;
+  }
+
+  .footer .cr{
+    margin-top: 30px;
+  }
+
+  .faq-section{
+    width: 896px;
+  }
+
+  .faq-section .faq-content .item{
+    width: 400px;
+  }
+}
+

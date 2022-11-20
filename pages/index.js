@@ -8,13 +8,13 @@ const Home = () => {
     <div class="head">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-1 offset-1 firstCol"></div>
-          <div class="col-4 secondCol">
+          <div class="col-xl-1 col-sm-0 col-md-0 col-lg-0 offset-lg-1 offset-0 firstCol"></div>
+          <div class="col-xl-4 col-sm-12 col-md-6 col-lg-12 secondCol">
             <div>
-              <img src="ihack.png" width="580px" />
+              <img src="ihack.png" />
             </div>
           </div>
-          <div class="col-6 thirdCol text-white">
+          <div class="col-xl-6 col-lg-6 col-sm-12 thirdCol text-white">
             <div class="text">
               <h1 class="firstText">HACKATHON</h1>
               <p class="secondText">Myanmar's first in-person hackathon
@@ -23,7 +23,7 @@ const Home = () => {
               </p>
               <p class="thirdText">For High School Students And University Students</p>
               <p class="fourthText"> 
-                <FontAwesomeIcon icon={faCalendar} style={{ fontSize:"38px" }} /> &nbsp; December 23rd - 25th
+                <FontAwesomeIcon icon={faCalendar} style={{ fontSize:"25px" }} /> &nbsp; December 23rd - 25th
               </p>
             </div>
           </div>
@@ -39,13 +39,13 @@ const Home = () => {
           <div class="col-6 offset-1 about">
             <h1 class="">What is Inspire Hack?</h1>
             <p class="para">
-              Inspire Hack is a 24 hours long first in-person hackathon <br/>
-              in Myanmar and will also be first in-person Hackathon <br/>
-              that allow high schoolers to participate. On December <br/>
-              23rd 2022, about 125 students will transform their ideas <br/>
-              to reality. Our mission is to provide avenue to <br/>
-              programming and computer science to the students. <br/>
-              Attendees will have an unforgettable experience during <br/>
+              Inspire Hack is a 24 hours long first in-person hackathon 
+              in Myanmar and will also be first in-person Hackathon 
+              that allow high schoolers to participate. On December 
+              23rd 2022, about 125 students will transform their ideas 
+              to reality. Our mission is to provide avenue to 
+              programming and computer science to the students. 
+              Attendees will have an unforgettable experience during 
               this hackathon.
             </p>
           </div>
@@ -54,13 +54,13 @@ const Home = () => {
     </div>
     <div class="spon">
       <h1>Sponsors</h1>
+      <h2>International Sponsors</h2>
       <div class="sponLogo">
-        <Image src={'/next-js.svg'} width="100" height="100" />
-        <Image src={'/laravel.svg'} width="100" height="100" />
-        <Image src={'/react.svg'} width="100" height="100" />
-        <Image src={'/hack-club-bank.svg'} width="100" height="100" />
-        <Image src={'/paypal.svg'} width="100" height="100" />
-        <Image src={'/google.svg'} width="100" height="100" />
+        <Image src={'/hack-club-bank.svg'} width="200" height="100" /> &nbsp; &nbsp; &nbsp;
+        <Image src={'/Desmos Logo.svg'} width="200" height="100" /> &nbsp; &nbsp; &nbsp;
+        <Image src={'/xyz.svg'} width="200" height="100" /> &nbsp; &nbsp; &nbsp;
+        <Image src={'/taskade.svg'} width="200" height="100" /> &nbsp; &nbsp; &nbsp;
+        <Image src={'/StreamYard.svg'} width="200" height="100" /> &nbsp; &nbsp; &nbsp;
       </div>
       <p>
         <a href='/Inspire Hack Prospectus.pdf' target="_blank">
