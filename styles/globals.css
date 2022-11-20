@@ -55,11 +55,11 @@ nav{
   .menu{
     margin-left: 400px;
     display: block;
+    font-size: 25px;
   }
 
   .con .logo{
     margin: 10px;
-    
   }
 
 }
@@ -299,6 +299,7 @@ nav{
   text-align: center;
   text-decoration: underline;
   margin-top: 70px;
+  margin-bottom: 50px;
 }
 
 .spon p a{
